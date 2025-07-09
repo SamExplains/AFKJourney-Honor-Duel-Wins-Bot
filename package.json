@@ -1,0 +1,25 @@
+{
+  "name": "afkjourney_honor_duel_bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for the game AFK Journeys Honor Duel mode for submitting screenshots and processing the information in those screenshots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devraelfreeze/discordjs-pagination": "^2.7.6",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "canvas": "^3.1.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "ocr-space-api-wrapper": "^2.4.0",
+    "sequelize": "^6.37.7",
+    "sharp": "^0.34.2",
+    "sqlite3": "^5.1.7"
+  }
+}
